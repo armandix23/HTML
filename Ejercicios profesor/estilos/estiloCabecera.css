@@ -1,0 +1,22 @@
+h1
+{
+	background-color: green;
+	font-size: 24pt;
+	font-weight: bold;
+	color: white;
+}
+h2
+{
+	background-color: magenta;
+	font-size: 20pt;
+	font-weight: bold;
+	color: white;
+}
+hr
+{
+	border-width: 6px;
+	border-color: red;
+	border-style: solid;
+	width: 80%;
+}
+

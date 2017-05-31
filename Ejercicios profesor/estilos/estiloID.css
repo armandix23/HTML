@@ -1,0 +1,25 @@
+#parrafo1
+{
+	font-size: 20pt;
+	color: red;
+}
+#imagen1
+{
+	width:  450px;
+	height: 350px;
+}
+#parrafo2
+{
+	font-size: 14pt;
+	color: blue;
+}
+#imagen2
+{
+	width: 400px;
+	height: 300px;
+}
+img
+{
+	width: 1024px;
+	height: 768px;
+}
