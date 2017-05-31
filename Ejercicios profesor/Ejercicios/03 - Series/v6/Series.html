@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivina la serie</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" 
+	      type="text/css" 
+	      href="estilos/estiloSerie.css">
+	<script type="text/javascript" 
+	        src="scripts/scriptSeries.js">
+	</script>
+</head>
+<body>
+  <p class="Cabecera">
+    ADIVINA LA SERIE
+  </p>
+  <img class="Imagenes" 
+       id="Imagen1" 
+       src="imagenes/csi.jpg">
+  <p class="RespuestasGrandes"
+     id="Respuesta1_1" 
+     onclick="Errores('Respuesta1_1','Imagen1') ">
+     a. Narcos  
+  </p>  
+  <p class="RespuestasGrandes"
+     id="Respuesta1_2" 
+     onclick="Aciertos('Respuesta1_2','Imagen1')" >
+     b. CSI     
+  </p>
+  <p class="RespuestasGrandes"
+     id="Respuesta1_3" 
+     onclick="Errores('Respuesta1_3','Imagen1') ">
+     c. Gotham  
+  </p>
+  <img class="Imagenes"
+       id="Imagen2" 
+       src="imagenes/silicon.jpg">
+  <p class="RespuestasMedianas"
+     id="Respuesta2_1" 
+     onclick="Errores('Respuesta2_1','Imagen2') ">
+     a. Family Guy 
+  </p>  
+  <p class="RespuestasMedianas"
+     id="Respuesta2_2" 
+     onclick="Errores('Respuesta2_2','Imagen2') ">
+    b. Gotham        
+  </p> 
+  <p class="RespuestasMedianas"
+     id="Respuesta2_3" 
+     onclick="Aciertos('Respuesta2_3','Imagen2')"> 
+     c. Silicon Valley 
+  </p>
+  <p class="ResultadoSeries" 
+     id="Resultados">
+    ACIERTOS: <span id="idAciertos">0</span>
+    FALLOS: <span id="idFallos">0</span>
+  </p>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de series</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos/estiloSerie.css">
+	<script type="text/javascript" src="script/seriesScript.js"></script>
+</head>
+<body>
+  <p id="Cabecera">
+    ADIVINA LA SERIE
+  </p>
+  <img class="Imagenes" src="imagenes/CSI.jpg">
+  <p class="Textos" id="Respuesta1_1" onclick="Pregunta11_Incorrecta()">
+    a. La isla de los famosos
+  </p>
+  <p class="Textos" id="Respuesta1_2" onclick="Pregunta12_Correcta()">
+    b. CSI
+  </p>
+  <p class="Textos" id="Respuesta1_3" onclick="Pregunta13_Incorrecta()">
+    c. Austin
+  </p>
+  <img class="Imagenes" src="imagenes/lost.png">
+  <p class="Textos" id="Respuesta2_1" onclick="Pregunta21_Correcta()">
+    a. Perdidos
+  </p>
+  <p class="Textos" id="Respuesta2_2" onclick="Pregunta22_Incorrecta()">
+    b. Heroes
+  </p>
+  <p class="Textos" id="Respuesta2_3" onclick="Pregunta23_Incorrecta()">
+    c. Walking dead
+  </p>
+  <p id="Pie">
+    ACIERTOS: <span id="nAciertos"> 0 </span>
+  </p>
+  <p id="Pie">
+    FALLOS: <span id="nFallos"> 0 </span>
+  </p>
+</body>
+</html>

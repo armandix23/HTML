@@ -1,0 +1,38 @@
+#Cabecera
+{
+	background-color: blue;
+	color: red;
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+#Imagen1
+{
+	width: 250px;
+	height: 150px;
+}
+#Imagen2
+{
+	width: 200px;
+	height: 100px;
+}
+#Respuesta1_1, #Respuesta1_2, #Respuesta1_3
+{
+	font-size: 14pt;
+	margin-left: 15pt;
+}
+#Respuesta2_1, #Respuesta2_2, #Respuesta2_3
+{
+	font-size: 10pt;
+	margin-left: 15pt;
+}
+#Resultados
+{
+	background-color: green;
+	color: white;
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+

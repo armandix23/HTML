@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repografía digital para particulares y empresas</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css/EstiloAlta.css"  title="Alta">
+  <link rel="stylesheet" type="text/css" href="css/EstiloMedia.css" title="Media">
+  <link rel="stylesheet" type="text/css" href="css/EstiloBaja.css"  title="Baja">
+  <meta http-equiv="default-style" content="Media">        
+  <meta name="author"  content="DAM Software" />
+  <meta name="description" 
+        content="Reprografía digital para particulares y empresas"  />
+  <meta name="keywords" 
+        content="impresión, digital, marco, copia, blanco, negro, escala, fotografía" />
+  <script type="text/javascript">
+    function resolucionMarino() 
+    {
+      var im,ancho,alto;
+      im = document.getElementById("imgMarino");
+      ancho = im.width;
+      alto = im.height;
+      alert("Resolución: " + ancho + " x " + alto);
+    }
+    function resolucionAve() 
+    {
+      var im,ancho,alto;
+      im = document.getElementById("imgAve");
+      ancho = im.width;
+      alto = im.height;
+      alert("Resolución: " + ancho + " x " + alto);
+    }
+
+    function resolucionImagen(idImagen) 
+    {
+      var im,ancho,alto;
+      im = document.getElementById(idImagen);
+      ancho = im.width;
+      alto = im.height;
+      alert("Resolución: " + ancho + " x " + alto);
+    }
+    function cambiarResolucionBaja() 
+    {
+       document.getElementById("imgMarino").style.width="300px";    
+       document.getElementById("imgMarino").style.height="200px";   
+       document.getElementById("imgAve").style.width="300px";    
+       document.getElementById("imgAve").style.height="200px";   
+    }
+    function cambiarResolucionAlta() 
+    {
+       document.getElementById("imgMarino").style.width="500px";    
+       document.getElementById("imgMarino").style.height="400px";   
+       document.getElementById("imgAve").style.width="500px";    
+       document.getElementById("imgAve").style.height="400px";   
+    }
+    function cambiarResolucionImagenes(nuevoAncho,nuevoAlto) 
+    {
+       document.getElementById("imgMarino").style.width=nuevoAncho + "px";    
+       document.getElementById("imgMarino").style.height=nuevoAlto + "px";   
+       document.getElementById("imgAve").style.width=nuevoAncho + "px";    
+       document.getElementById("imgAve").style.height=nuevoAlto + "px";   
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Con varias funciones -->
+  <!-- <p style="font-size: 40pt; color: Red; " onclick="cambiarResolucionAlta()" > -->
+  <!-- Con una única función -->
+  <p style="font-size: 40pt; color: Red; "  onclick="cambiarResolucionImagenes(500,400)">
+    Cambiar a 500x400 
+  </p>
+  <!-- Con varias funciones -->
+  <!-- <p style="font-size: 40pt; color: Red; " onclick="cambiarResolucionBaja()" > -->
+  <!-- Con una única función -->
+  <p style="font-size: 40pt; color: Red; " onclick="cambiarResolucionImagenes(300,200)">
+    Cambiar a 300x200 
+  </p>
+  <!-- IMAGEN ANIMAL MARINO -->
+  <img id="imgMarino" src="img/marino.jpg" onclick="resolucionMarino()">
+  <a href="https://es.wikipedia.org/wiki/Testudines">
+    <p>
+      Tortuga marina
+    </p>
+  </a>
+  <!-- IMAGEN AVE -->
+  <img id="imgAve" src="img/ave.jpg" onclick="resolucionAve()">
+  <a href="https://es.wikipedia.org/wiki/Haliaeetus_leucocephalus">
+    <p>
+      Águila blanca
+    </p>
+  </a>
+</body>
+</html>

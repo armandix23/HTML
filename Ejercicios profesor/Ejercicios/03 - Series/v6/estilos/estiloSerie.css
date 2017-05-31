@@ -1,0 +1,33 @@
+.Cabecera
+{
+	background-color: blue;
+	color: red;
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+.Imagenes
+{
+	width: 250px;
+	height: 150px;
+}
+.RespuestasGrandes
+{
+	font-size: 14pt;
+	margin-left: 15pt;
+}
+.RespuestasMedianas
+{
+	font-size: 10pt;
+	margin-left: 15pt;
+}
+.ResultadoSeries
+{
+	background-color: green;
+	color: white;
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+

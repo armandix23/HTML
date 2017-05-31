@@ -1,0 +1,14 @@
+.Imagen 
+{
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	color: red;
+}
+.Etiqueta
+{
+	background-color: #996633; /* Marrón */
+	color: #339933;            /* Verde  */
+	font-size: 22pt;
+	text-align: center;
+}
