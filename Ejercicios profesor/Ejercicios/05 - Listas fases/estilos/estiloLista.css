@@ -1,0 +1,17 @@
+h1
+{
+	background-color: red;
+	color: white;
+	font-size: 20pt;
+}
+dt
+{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+dd
+{
+	color: blue;
+	font-size: 10pt;
+}

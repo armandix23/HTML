@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maquina Recreativa - Juego</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" 
+	      type="text/css" 
+	      href="estilos/estilo.css">
+  <script type="text/javascript" 
+          src="javascript/funciones.js"></script>
+</head>
+<body>
+  <div class="Cabecera">
+    <img class="Icono" src="imagenes/Limon.png">
+    <a href="Inicio.html">Inicio</a>
+    <a href="Juego.html">Juego</a>
+    <a href="AcercaDe.html">Acerca de...</a>
+  </div>
+  <h1>Juego</h1>  
+  <div class="TextoMarcador">
+    Marcador Actual
+  </div>
+  <div class="ValorMarcador"id="MarcadorActual">
+    99
+  </div>
+  <div class="TextoMarcador">
+    Tirada Actual
+  </div>
+  <div class="ValorMarcador" id="TiradaActual">
+    99
+  </div>
+  <img class="Icono" src="imagenes/Fresa.png" 
+       id="imagen1">
+  <img class="Icono" src="imagenes/Sandia.png" 
+       id="imagen2">
+  <img class="Icono" src="imagenes/Limon.png"
+       id="imagen3">
+  <br/>
+  <button onclick="Reiniciar();">Reiniciar</button>
+  <button onclick="Guardar();">Guardar Tirada</button>
+  <button onclick="Jugar();">Jugar</button>
+  <br/>
+  <button onclick="CambiarImagen('imagen1');">Cambiar 1</button>
+  <button onclick="CambiarImagen('imagen2');">Cambiar 2</button>
+  <button onclick="CambiarImagen('imagen3');">Cambiar 3</button>
+  <br/>
+
+</body>
+</html>
