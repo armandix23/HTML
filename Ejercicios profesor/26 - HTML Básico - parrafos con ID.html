@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página con párrafos con ID</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" 	   href="estilos/estiloID.css">
+	<script type="text/javascript">
+	   function CambiarParrafo() 
+	   {
+	   	  var p;
+
+	   	  p = document.getElementById('parrafo1');
+	   	  p.innerHTML = " Y VIENTO";
+
+           
+	   	  var miImagen;
+
+	   	  miImagen = document.getElementById('imagen1');
+	   	  miImagen.style.display = none;
+
+
+	   	  // miImagen.style.visibility = hidden;
+	   	  // miImagen.src ="imagenes/verano.jpg";
+	   }
+	</script>
+</head>
+<body>
+  <p id="parrafo1" align="center">
+    La primavera ha emepezado el 21 de marzo con mucho frío 
+  </p>
+  <img id="imagen1" 
+       src="imagenes/primavera.jpg"
+       onclick="CambiarParrafo()">
+
+  <p id="parrafo2" align="center">
+	Todavía queda mucho para el 21 de junio que empieza el verano y ya no hay clases por fin!!!!!
+  </p>
+
+  <img id="imagen2" 
+       src="imagenes/verano.jpg">
+
+  <img src="imagenes/mundo.png">
+<body>
+</html>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página con script
+	</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	  function saludo(){
+	  	// Cuerpo de la función
+	    alert("MI PAGINA TE SALUDA");
+	  }
+	  function dentroParrafo(){
+	    alert("Dentro del párrafo");
+	  
+	  function escribeNombre() {
+	  	var p;
+	  	p = document.getElementById("miParrafo");
+	  	p.style.fontSize = "40pt";
+	  	p.style.backgroundColor = "Red";
+	  }
+	</script>
+</head>
+<body>
+  <p id="miParrafo" 
+     onclick="escribeNombre()"
+     onmouseover="dentroParrafo(
+)">
+    Mi página con sricpt
+  </p>
+
+</body>
+</html>

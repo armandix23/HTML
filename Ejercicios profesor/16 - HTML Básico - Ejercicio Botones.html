@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página con script
+	</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	  function cambiarFondoAzul(){
+	  	document.body.style.backgroundColor ="Blue";
+	  }
+	  function cambiarFondoVerde(){
+	  	document.body.style.backgroundColor ="Green";
+	  }
+	  function tipoLetraMayor(){
+	  	document.body.style.fontSize = "30pt";
+	  }
+	  function tipoLetraMenor(){
+	  	document.body.style.fontSize = "9pt";
+	  }
+	  
+	</script>
+</head>
+<body>
+  <h1> Configura la página </h1>
+  <p>
+    Pulsa sobre los colores para cambiar el color del fonde de la 
+    página
+  </p>
+  <img src="imagenes/botonAzul.jpg" 
+       onclick="cambiarFondoAzul()">
+  <img src="imagenes/botonVerde.jpg"
+       onclick="cambiarFondoVerde()">
+  <p>
+    Pulsa sobre más y menos para cambiar el tamaño de la letra
+  </p>
+  <img src="imagenes/mas.png"
+       onclick="tipoLetraMayor()">
+  <img src="imagenes/menos.jpg"
+       onclick="tipoLetraMenor()">
+  <p>
+     La página contiene texto de diferente tamáño
+  </p>
+</body>
+</html>

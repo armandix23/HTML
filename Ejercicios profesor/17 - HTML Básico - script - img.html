@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página con script
+	</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	  function resolucionBaja(){
+       document.getElementById("ave").style.height="50px";	  
+       document.getElementById("mari").style.height="50px";	  
+    }
+	  function resolucionMedia(){
+       document.getElementById("ave").style.height="300px";    
+       document.getElementById("mari").style.height="300px";	  
+	  }
+	  function resolucionAlta(){
+       document.getElementById("ave").style.height="800px";    
+       document.getElementById("mari").style.height="800px";	  
+	  }
+	</script>
+</head>
+<body>
+  <h1> Configura la página </h1>
+  <p onclick="resolucionBaja()">640x480</p>
+  <p onclick="resolucionMedia()">1024x680</p>
+  <p onclick="resolucionAlta()">1480x768</p>
+
+  <img id="ave"
+       src="Ejercicios/01 - Animales/V2/img/ave.jpg" >
+  <img id="mari"
+       src="Ejercicios/01 - Animales/V2/img/marino.jpg" >       
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+	<title>Página con botones</title>
+	<meta charset="utf-8">
+	<script type="text/javascript"
+	        src="scripts/cambiarFuente.js">
+	</script>
+	<script type="text/javascript"
+	        src="scripts/cambiarColor.js">
+	</script>
+</head>
+<body>
+  <p id="parrafo"> 
+    El texto del documento 
+    <br/>
+    <br/>
+    <br/>
+    Otro texto
+  </p>
+  <img src="imagenes/botonAzul.jpg"
+       onclick="cambiarColor('blue')">
+  <img src="imagenes/botonVerde.jpg"
+       onclick="cambiarColor('green')">
+
+  <p onclick="cambiarFuente('40pt')"> Tamaño 40 </p>
+  <p onclick="cambiarFuente('30pt')"> Tamaño 30 </p>
+  <p onclick="cambiarFuente('20pt')"> Tamaño 20 </p>
+
+</body>
+</html>
