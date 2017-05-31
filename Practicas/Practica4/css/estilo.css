@@ -1,0 +1,15 @@
+dt{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14pt;
+}
+dd{
+	font-style: italic;
+	color:blue;
+	font-size: 10pt;
+}
+h1{
+	background-color: red;
+	color:white;
+	text-align: center;
+}

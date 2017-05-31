@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	font-size: 30pt;
+	background-color: lightblue;
+	color: red;
+	font-weight: bold;
+}
+#imagen1{
+	width: 250px;
+	height: 150px;
+}
+
+#parrafo1{
+	font-size: 14pt;
+}
+#parrafo2{
+	font-size: 14pt;
+}
+#imagen2{
+	width: 200px;
+	height: 100px;
+}
+#parrafo3{
+	font-size: 10pt;
+}
+#parrafo4{
+	font-size: 10pt;
+}
+#parrafo5{
+	background-color: darkmagenta;
+	color: blue;
+	text-align: center;
+	font-size: 24pt;
+}
+img{
+	height: 100px;
+	width: 90px;
+}

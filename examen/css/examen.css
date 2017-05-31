@@ -1,0 +1,26 @@
+h1,table#tabla1{
+	background-color: olive;
+	text-align: center;
+	max-width: 800px;
+	margin: 20px auto;
+	text-decoration: none;
+}
+div.juego{
+	background-color: orange;
+	text-align: right;
+	max-width: 150px;
+	
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+table#tabla2{
+	background-color: grey;
+	text-align: center;
+	text-decoration: none;
+	border-color: black;
+}
+div#acerca{
+	text-align: center;
+}

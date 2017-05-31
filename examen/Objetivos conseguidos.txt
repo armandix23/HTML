@@ -1,0 +1,7 @@
+1. Crear una página web que simule un juego de máquina recreativa. La pagina tendrá una cabecera en la parte superior que contenga una imagen y los siguientes elementos: Inicio, Juego, Acerca de: 
+ 
+? Inicio: Al pulsarlo, se mostrará las normas de juego en formato de texto. 
+? Juego: Al pulsarlo, se mostrará los elementos: 
+? Acerca de: Al pulsarlo, se mostrará el nombre autor de la página, la fecha centrado en la página. Cuando se haga click sobre el nombre del autor, se mandará automáticamente un correo a la dirección del correo del autor. 
+
+Reiniciar: Al pulsar esta opción, ambos marcadores se iniciarán a 0. 

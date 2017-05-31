@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAQUINA RECREATIVA</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/examen.css">
+	<script type="text/javascript" src="js/examen.js"></script>
+</head>
+<body>
+	<H1> 
+		<table id="tabla1">
+				<tr>
+					<td><img src="imagenes/Limon.png" width="50" height="50"></td>
+					<td><a href="inicio.html">Inicio</a></td>
+					<td><a href="#">Juego</a></td>
+					<td><a href="acerca.html">Acerca de</a></td>
+				</tr>
+		</table>
+	</H1>
+	
+	<p><b>Juego</b></p>
+		<p >Marcador actual
+			<span><div class="juego" id="MarcadorAc">
+				99
+			</div></span>
+		</p>
+		<p>Tirada actual
+			<span><div class="juego" id="TiraAc">
+				99
+			</div></span>
+		</p>
+		<img id="imagen1" src="imagenes/Fresa.png" >
+		<img id="imagen2" src="imagenes/Limon.png" >
+		<img id="imagen3" src="imagenes/Sandia.png" >
+
+	<table id="tabla2">
+		<tr>
+			<td onclick="reiniciar();">Reiniciar</td>
+			<td onclick="guardar();">Guardar tirada</td>
+			<td onclick="jugar();">Jugar</td>
+		</tr>
+		<tr>
+			<td onclick="cambiarPuntuar('imagen1');">Cambiar 1</td>
+			<td onclick="cambiarPuntuar('imagen2');">Cambiar 2</td>
+			<td onclick="cambiarPuntuar('imagen3');">Cambiar 3</td>
+		</tr>
+	</table>
+</body>
+</html>

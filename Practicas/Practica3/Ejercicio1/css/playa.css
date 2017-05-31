@@ -1,0 +1,28 @@
+body{
+background: url(../images/playa.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#titulo{
+	text-align: center;
+	font-size: 20pt;
+	color: blue;
+	font-weight: bold;
+	font-family: Verdana ;
+}
+#lista{
+	color: blue;
+	font-weight: bold;
+	font-size: 20pt;
+}
+h1{
+	font-size: 50pt;
+	color: olive;
+	font-weight: bold;
+}
+h3{
+	font-size: 25pt;
+	color:olive;
+}
