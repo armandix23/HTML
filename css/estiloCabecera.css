@@ -1,0 +1,25 @@
+h1{
+	background-color: green;
+	font-size: 24pt;
+	font-weight: bold;
+	color: white;
+}
+h2{
+	background-color: black;
+	font-size: 24pt;
+	font-weight: bold;
+	color: white;
+
+}
+h3{
+	background-color: darkblue;
+	font-size: 24pt;
+	font-weight: bold;
+	color: yellow;
+}
+hr{
+	border-width: 6px;
+	border-color: red;
+	border-style: solid;
+	width: 300px;
+}

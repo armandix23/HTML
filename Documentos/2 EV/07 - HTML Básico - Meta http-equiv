@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Página de prueba http-equiv </title>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="3">
+	<script type="text/javascript">
+		alert("PAGA LA COCA PRIMER AVISO");
+	</script>
+</head>
+<body>
+
+</body>
+</html>

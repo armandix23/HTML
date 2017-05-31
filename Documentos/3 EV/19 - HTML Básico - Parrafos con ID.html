@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parrafos con HTML</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" 
+		type="text/css"
+		 href="../css/estiloID.css">
+	<script type="text/javascript">
+		function CambiarParrafo(){
+			var p;
+			p=document.getElementById('parrafo1');
+			p.innerHTML += "Y VIENTO";
+		}
+
+
+
+
+	</script>
+
+</head>
+<body>
+	<p id="parrafo1" align="center">
+		La palabra clasico jiji tu madre es una pedazo de gbuena mujer
+	</p>
+	<img id="imagen1"
+		 src="../image/raper1.jpg"
+		 onclick="CambiarParrafo()">
+
+	<p id="parrafo2" align="center">
+		El rapero clasico desde las bravas del Mercadona
+	</p>
+	<img id="imagen2"
+		 src="../image/raper2.jpg">
+</body>
+</html>

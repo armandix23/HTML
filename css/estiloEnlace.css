@@ -1,0 +1,13 @@
+h1{
+	font-weight: bold;
+}
+h2{
+	background-color: red;
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+}
+ul, li{
+	font-weight: bold;
+	font-size: 14pt;
+}
